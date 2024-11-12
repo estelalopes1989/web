@@ -1,0 +1,76 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body{
+  background-color:#000000;
+  color:#d1cccc;
+   font-family:;
+   font-size: 100%
+}
+}
+h1 {
+  font-size: 10cm;
+}
+h1{
+  font-family: "EB Garamond", serif;
+   font-optical-sizing:auto;
+   font-weight: <weight>;
+   font-style: normal;
+   font-size:<80xp>;
+   color:#a07f46
+}
+p{
+    text-align: justify;
+  }
+
+  .header {
+    background-color: #671d1d;
+    text-align: center;
+    padding:0.5cm;
+  }
+
+/* The navbar container */
+.topnav {
+  overflow: hidden;
+  background-color: #1d2849;
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #c38314;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Links - change color on hover */
+.topnav a:hover {
+  background-color: #8b8989;
+  color: black;
+}
+  
+.column {
+  float: left;
+}
+
+/* Left and right column */
+.column.side {
+  width: 25%;
+}
+
+/* Middle column */
+.column.middle {
+  width: 50%;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
+
+
